@@ -1,7 +1,3 @@
-// Name: Shirley Lin
-// Date: 10/5/25
-// Assignment: Project 4 - Inheritance & Polymorphism
-
 import java.awt.image.BufferedImage;
 import java.awt.Graphics;
 

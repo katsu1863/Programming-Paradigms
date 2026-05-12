@@ -1,7 +1,3 @@
-// Name: Shirley Lin
-// Date: 10/3/25
-// Assignment: Project 4 - Inheritance & Polymorphism
-
 import java.awt.event.MouseListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.ActionListener;

@@ -1,7 +1,3 @@
-// Name: Shirley Lin
-// Date: 10/3/25
-// Assignment: Project 4 - Inheritance & Polymorphism
-
 // ----------------------------------------------------------------
 // The contents of this file are distributed under the CC0 license.
 // See http://creativecommons.org/publicdomain/zero/1.0/

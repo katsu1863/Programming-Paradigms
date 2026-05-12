@@ -1,4 +1,5 @@
 import java.awt.image.BufferedImage;
+import java.io.File;
 import java.awt.Graphics;
 
 public class Link extends Sprite {
@@ -33,7 +34,7 @@ public class Link extends Sprite {
             int index = 1;
             for(int i = 0; i < NUM_DIRECTIONS; i++) {
                 for(int j = 0; j < MAX_IMAGES_PER_DIRECTION; j++) {
-                    images[i][j] = View.loadImage("images/link" + index + ".png");
+                    images[i][j] = View.loadImage("../Images/link" + index + ".png");
                     index++;
                 }
             }

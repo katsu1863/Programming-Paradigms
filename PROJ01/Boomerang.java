@@ -23,7 +23,7 @@ public class Boomerang extends Sprite {
         if(images == null) {
             images = new BufferedImage[TOTAL_NUM_IMAGES];
             for(int i = 0; i < TOTAL_NUM_IMAGES; i++) {
-                images[i] = View.loadImage("images/boomerang" + (i + 1) + ".png");
+                images[i] = View.loadImage("../Images/boomerang" + (i + 1) + ".png");
             }
         }
 

@@ -21,8 +21,8 @@ public class TreasureChest extends Sprite {
 
         if(images == null) {
             images = new BufferedImage[TOTAL_NUM_IMAGES];
-            images[0] = View.loadImage("images/treasurechest.png");
-            images[1] = View.loadImage("images/rupee.png");
+            images[0] = View.loadImage("../Images/treasurechest.png");
+            images[1] = View.loadImage("../Images/rupee.png");
         }
 
         // System.out.println(toString());
@@ -37,8 +37,8 @@ public class TreasureChest extends Sprite {
 
         if(images == null) {
             images = new BufferedImage[TOTAL_NUM_IMAGES];
-            images[0] = View.loadImage("images/treasurechest.png");
-            images[1] = View.loadImage("images/rupee.png");
+            images[0] = View.loadImage("../Images/treasurechest.png");
+            images[1] = View.loadImage("../Images/rupee.png");
         }
 
         // System.out.println(toString());

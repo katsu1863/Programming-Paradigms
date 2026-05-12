@@ -13,7 +13,7 @@ public class Tree extends Sprite {
 
         // Load tree image
         if(image == null)
-            image = View.loadImage("images/tree.png");
+            image = View.loadImage("../Images/tree.png");
 
         // System.out.println(toString());
     }
@@ -23,7 +23,7 @@ public class Tree extends Sprite {
         super((int)ob.getLong("x"), (int)ob.getLong("y"), (int)ob.getLong("w"), (int)ob.getLong("h"));
 
         if(image == null)
-            image = View.loadImage("images/tree.png");
+            image = View.loadImage("../Images/tree.png");
 
         // System.out.println(toString());
     }

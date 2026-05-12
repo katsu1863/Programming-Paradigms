@@ -4,7 +4,10 @@ Public repository for CSCE 31903 Programming Paradigms at the University of Arka
 ## Controls
 
 ## Project 1
+Programmed in Java.
 
 ## Project 2
+Programmed in JavaScript & HTML.
 
 ## Project 3
+Programmed in Python.

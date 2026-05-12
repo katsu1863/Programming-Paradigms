@@ -74,7 +74,7 @@ class Link(Sprite):
         for i in range(self.NUM_DIRECTIONS):
             self.images.append([])
             for j in range(self.MAX_IMAGES_PER_DIRECTION):
-                self.images[i].append(pygame.image.load("images/link" + str(index) + ".png"))
+                self.images[i].append(pygame.image.load("../Images/link" + str(index) + ".png"))
                 index += 1
 
     def update(self):
@@ -167,7 +167,7 @@ class Cucco(Sprite):
         for i in range(self.NUM_DIRECTIONS):
             self.images.append([])
             for j in range(self.MAX_IMAGES_PER_DIRECTION):
-                self.images[i].append(pygame.image.load("images/cucco" + str(index) + ".png"))
+                self.images[i].append(pygame.image.load("../Images/cucco" + str(index) + ".png"))
                 index += 1
         
         self.angry_images = []
@@ -175,7 +175,7 @@ class Cucco(Sprite):
         for i in range(self.NUM_DIRECTIONS):
             self.angry_images.append([])
             for j in range(self.MAX_IMAGES_PER_DIRECTION):
-                self.angry_images[i].append(pygame.image.load("images/angrycucco" + str(index) + ".png"))
+                self.angry_images[i].append(pygame.image.load("../Images/angrycucco" + str(index) + ".png"))
                 index += 1
 
     def update(self):
@@ -271,7 +271,7 @@ class Tree(Sprite):
         else:
             super().__init__(x, y, w, h)
 
-        self.image = pygame.image.load("images/tree.png")
+        self.image = pygame.image.load("../Images/tree.png")
 
     def draw_yourself(self, g, shift_x, shift_y):
         LOCATION = (self.x - shift_x, self.y - shift_y)
@@ -297,8 +297,8 @@ class TreasureChest(Sprite):
         self.countdown = 45
 
         self.images = []
-        self.images.append(pygame.image.load("images/treasurechest.png"))
-        self.images.append(pygame.image.load("images/rupee.png"))
+        self.images.append(pygame.image.load("../Images/treasurechest.png"))
+        self.images.append(pygame.image.load("../Images/rupee.png"))
 
     def update(self):
         # Start the countdown once Link or Boomerang collides with the chest
@@ -341,7 +341,7 @@ class Boomerang(Sprite):
         self.TOTAL_NUM_IMAGES = 4
         self.images = []
         for i in range(self.TOTAL_NUM_IMAGES):
-            self.images.append(pygame.image.load("images/boomerang" + str(i + 1) + ".png"))
+            self.images.append(pygame.image.load("../Images/boomerang" + str(i + 1) + ".png"))
     
     def update(self):
         # Animate Boomerang

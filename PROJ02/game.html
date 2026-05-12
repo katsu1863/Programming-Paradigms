@@ -1,7 +1,3 @@
-<!-- Name: Shirley Lin -->
-<!-- Date: 11/11/25 -->
-<!-- Assignment: Project 6 - Link in JavaScript -->
-
 <!-- ------------------- Website UI ------------------- -->
 
 <head>
@@ -95,7 +91,7 @@ class Link extends Sprite {
 			this.images[i] = []
 			for(let j = 0; j < this.MAX_IMAGES_PER_DIRECTION; j++) {
 				this.images[i].push(new Image())
-				this.images[i][j].src = "images/link" + index++ + ".png"
+				this.images[i][j].src = "../Images/link" + index++ + ".png"
 			}
 		}
 	}
@@ -162,7 +158,7 @@ class Tree extends Sprite {
 	constructor(x, y, w, h) {
 		super(x, y, w, h)
 		this.image = new Image()
-		this.image.src = "images/tree.png"
+		this.image.src = "../Images/tree.png"
 	}
 
 	drawYourself(g, currentRoomX, currentRoomY) {
@@ -185,9 +181,9 @@ class TreasureChest extends Sprite {
 
 		this.images = []
 		this.images.push(new Image())
-		this.images[0].src = "images/treasurechest.png"
+		this.images[0].src = "../Images/treasurechest.png"
 		this.images.push(new Image())
-		this.images[1].src = "images/rupee.png"
+		this.images[1].src = "../Images/rupee.png"
 	}
 
 	update() {
@@ -230,7 +226,7 @@ class Boomerang extends Sprite {
 		this.TOTAL_NUM_IMAGES = 4
 		for(let i = 0; i < this.TOTAL_NUM_IMAGES; i++) {
 			this.images.push(new Image())
-			this.images[i].src = "images/boomerang" + (i + 1) + ".png"
+			this.images[i].src = "../Images/boomerang" + (i + 1) + ".png"
 		}
 	}
 
